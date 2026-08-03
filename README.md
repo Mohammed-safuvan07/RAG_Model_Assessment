@@ -6,32 +6,35 @@ This project is a Retrieval-Augmented Generation (RAG) PDF Chatbot built using S
 The application allows users to upload one or more PDF documents and ask questions based on the uploaded content. The chatbot retrieves the most relevant information from the documents and generates accurate responses using Google's Gemini model.
 
 Features
-Upload multiple PDF documents
-Extract text from PDF files
-Split text into manageable chunks
-Generate embeddings using Hugging Face
-Store embeddings in a FAISS vector database
-Retrieve relevant document chunks using similarity search
-Generate answers using Google Gemini
-Simple and interactive Streamlit interface
+* Upload multiple PDF documents
+* Extract text from PDF files
+* Split text into manageable chunks
+* Generate embeddings using Hugging Face
+* Store embeddings in a FAISS vector database
+* Retrieve relevant document chunks using similarity search
+* Generate answers using Google Gemini
+* Simple and interactive Streamlit interface
+
 Technologies Used
-Python
-Streamlit
-LangChain
-FAISS
-Hugging Face Embeddings (sentence-transformers/all-MiniLM-L6-v2)
-Google Gemini
-PyPDF2
-Project Workflow
-Upload one or more PDF files.
-Extract text from the uploaded PDFs.
-Split the extracted text into overlapping chunks.
-Generate vector embeddings for each chunk.
-Store the embeddings in a FAISS vector database.
-Enter a question related to the uploaded documents.
-Retrieve the most relevant chunks using similarity search.
-Send the retrieved context to Gemini.
-Display the generated answer.
+
+* Python
+* Streamlit
+* LangChain
+* FAISS
+* Hugging Face Embeddings (sentence-transformers/all-MiniLM-L6-v2)
+* Google Gemini
+* PyPDF2
+* Project Workflow
+* Upload one or more PDF files.
+* Extract text from the uploaded PDFs.
+* Split the extracted text into overlapping chunks.
+* Generate vector embeddings for each chunk.
+* Store the embeddings in a FAISS vector database.
+* Enter a question related to the uploaded documents.
+* Retrieve the most relevant chunks using similarity search.
+* Send the retrieved context to Gemini.
+* Display the generated answer.
+
 Project Structure
 Chatbot_RAG/
 │── app.py
