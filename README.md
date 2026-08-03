@@ -4,7 +4,8 @@
 <img width="1361" height="686" alt="Screenshot_RAG" src="https://github.com/user-attachments/assets/cd981750-9919-43c1-89e4-1fb32b52c7e4" />
 
 
-Live Demo 
+
+**Live Demo **
 
 **Streamlit App:** http://localhost:8501/
 
